@@ -24,12 +24,19 @@
                 @click="drawer = !drawer"
             ></v-toolbar-side-icon>
             <v-spacer class="hidden-md-and-up"></v-spacer>
-            <router-link to="/"><v-toolbar-title>{{ appTitle }}</v-toolbar-title></router-link>
+            <router-link to="/"
+                ><v-toolbar-title>{{ appTitle }}</v-toolbar-title></router-link
+            >
             <v-btn flat class="hidden-sm-and-down" to="/ledger">Ledger</v-btn>
             <v-btn flat class="hidden-sm-and-down" to="/ledger">Profile</v-btn>
             <v-spacer class="hidden-sm-and-down"></v-spacer>
             <v-btn flat class="hidden-sm-and-down" to="/sign-in">SIGN IN</v-btn>
-            <v-btn color="indigo lighten-3" class="hidden-sm-and-down" to="/join">JOIN</v-btn>
+            <v-btn
+                color="indigo lighten-3"
+                class="hidden-sm-and-down"
+                to="/join"
+                >JOIN</v-btn
+            >
         </v-toolbar>
     </span>
 </template>

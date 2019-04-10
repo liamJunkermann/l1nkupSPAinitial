@@ -3,15 +3,13 @@
         <v-layout>
             <h1>Join Page</h1>
         </v-layout>
-    </v-container>    
+    </v-container>
 </template>
 
 <script>
 export default {
     name: 'Join'
-}
+};
 </script>
 
-<style scoped>
-
-</style>
+<style scoped></style>

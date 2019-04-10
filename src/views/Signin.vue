@@ -9,9 +9,7 @@
 <script>
 export default {
     name: 'Signin'
-}
+};
 </script>
 
-<style scoped>
-
-</style>
+<style scoped></style>
